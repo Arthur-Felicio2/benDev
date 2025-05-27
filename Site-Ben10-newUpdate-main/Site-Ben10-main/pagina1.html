@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>História</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('Decoração Ben 10.jpg');
+      background-size: cover;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding-top: 100px;
+      text-align: center;
+    }
+
+    .button-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      z-index: 1000;
+    }
+
+    .link-box {
+      padding: 10px 20px;
+      background-color: rgba(115, 248, 26, 0.603);
+      color: black;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .link-box:hover {
+      transform: scale(1.05);
+      box-shadow: 10px 10px 30px rgba(27, 240, 115, 0.3);
+    }
+
+    .content {
+      display: none;
+      margin: 30px auto;
+      max-width: 800px;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 15px;
+      text-align: left;
+    }
+
+    .content h2 {
+      color: #73f81a;
+    }
+
+    h1{
+        text-shadow: 0 0 10px black;
+    }
+  </style>
+</head>
+<body>
+   <h1 style="color: beige;">HISTÓRIA DE BEN10 (ORDEM CRONOLÓGICA)</h1>
+  <!-- Botões -->
+  <div class="button-container">
+    <div class="link-box" onclick="showContent('ben10')">Ben 10</div>
+    <div class="link-box" onclick="showContent('forca')">Força Alienígena</div>
+    <div class="link-box" onclick="showContent('supremacia')">Supremacia Alienígena</div>
+    <div class="link-box" onclick="showContent('omniverse')">Omniverse</div>  
+    <a href="index.html" class="link-box" style="background-color: red;">Voltar</a>
+  </div>
+
+  <!-- Conteúdos -->
+  <div id="ben10" class="content">
+    <h2>Ben 10 (2005)</h2>
+    <p>A história começa com Ben Tennyson, um garoto de 10 anos comum que está em férias de verão com sua prima Gwen Tennyson e seu avô Max Tennyson, viajando pelo país em um motorhome chamado O Encanamento. Durante uma parada em um bosque, Ben encontra um objeto misterioso caído do céu: o Omnitrix, um relógio alienígena extremamente poderoso criado por Azmuth, um Galvan (uma raça alienígena altamente inteligente). Quando o Omnitrix se prende ao pulso de Ben, ele ganha a habilidade de se transformar em dez diferentes formas alienígenas, cada uma com habilidades únicas, como superforça, velocidade, elasticidade, fogo, entre outros.
+Ao longo da série, Ben usa seus poderes para combater vilões e proteger o planeta. Entre os principais inimigos estão:
+<ol>
+ <li>Vilgax: Um poderoso alienígena que deseja roubar o Omnitrix para conquistar o universo.</li>
+ <p><li>Kevin Levin: Um garoto com a habilidade de absorver energia que começa como inimigo, mas se torna anti-herói nas séries seguintes.</li></p>
+ <p><li>Dr. Animo: Um cientista louco que manipula DNA para criar monstros mutantes.</li></p>
+ </ol>
+Apesar de ser imaturo no início, Ben aprende a responsabilidade de usar o Omnitrix para o bem, enfrentando dilemas morais e fortalecendo sua relação com Gwen e Max, que revela ser um ex-membro de uma organização secreta chamada Os Encanadores, que combate ameaças alienígenas na Terra.
+</p>  
+</div>
+  <div id="forca" class="content">
+    <h2>Ben 10: Força Alienígena</h2>
+    <p>Cinco anos se passam, e agora Ben tem 15 anos. Ele havia deixado o Omnitrix de lado para levar uma vida normal, mas o ressurgimento de ameaças o obriga a voltar à ação. Ele se reúne com Gwen, agora mais madura e com controle sobre seus poderes mágicos, e com Kevin Levin, que se redime e se junta ao grupo.
+    Nesta fase, o Omnitrix se recalibra, dando acesso a novos alienígenas. A ameaça principal é a dos DNAliens, seres humanos controlados por parasitas chamados Xenocitas, sob o comando dos Highbreed, alienígenas supremacistas que querem exterminar espécies “inferiores”.
+    Essa série é mais sombria e aborda temas mais sérios, como sacrifício, identidade, lealdade e racismo interespécies.</p>
+  </div>
+
+  <div id="supremacia" class="content">
+    <h2>Ben 10: Supremacia Alienígena</h2>
+    <p>Continuação direta de Força Alienígena, Ben continua com o Omnitrix, que evolui para o Ultimatrix, permitindo que ele acesse versões evoluídas de seus alienígenas, chamadas de formas supremas.
+    A ameaça central passa a ser Aggregor, um Osmosiano que rouba os poderes de cinco alienígenas jovens para se tornar quase invencível. Posteriormente, surge novamente Vilgax, além de novas ameaças galácticas.
+    Ben amadurece ainda mais, sendo reconhecido como um herói universal e símbolo de esperança para diversas espécies.</p>
+  </div>
+
+  <div id="omniverse" class="content">
+    <h2>Ben 10: Omniverse</h2>
+    <p>Após destruir o Ultimatrix, Ben recebe um novo dispositivo: o Novo Omnitrix. A série alterna entre o Ben de 16 anos e flashbacks com o Ben de 11 anos, mostrando como ele evoluiu como herói.
+    Seu novo parceiro é Rook Blonko, um alienígena novato dos Encanadores. Juntos, enfrentam novos vilões, como Khyber (um caçador de recompensas) e Maltruant, além de revisitar velhos inimigos.
+    O visual do desenho muda bastante, com um estilo mais cartunesco. A série continua expandindo o universo de Ben, explorando mais raças alienígenas, planetas e mistérios do Omnitrix.
+    </p>
+  </div>
+
+  <!-- Script -->
+  <script>
+    function showContent(id) {
+      // Oculta todos os conteúdos
+      const contents = document.querySelectorAll('.content');
+      contents.forEach(content => content.style.display = 'none');
+
+      // Exibe o conteúdo correspondente
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+
+</body>
+</html>
